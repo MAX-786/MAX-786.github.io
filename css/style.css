@@ -176,6 +176,7 @@ html {
     font-size: 1rem;
     border-radius: 10px;
     background-color: #ffc88694;
+    border-style: none;
 }
 
 #suggest-box label {
