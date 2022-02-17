@@ -1,0 +1,83 @@
+/* NAVIGATION SECTION  */
+
+#logo img {
+    height: 40px;
+}
+
+#navbar {
+    flex-direction: column;
+    align-items: center;
+}
+
+#navigation li {
+    margin: 5px 0px;
+}
+
+#navigation li a {
+    padding: 4px 5px;
+    font-size: 0.77rem;
+}
+
+
+/* HOME SECTION  */
+
+.home {
+    width: 85vw;
+    margin: 5px 0px;
+}
+
+#home p {
+    font-size: 1rem;
+}
+
+
+/* FICTIONAL SECTION  */
+
+#fictional {
+    flex-wrap: wrap;
+}
+
+.movies {
+    margin: 10px 30px;
+}
+
+
+/* OUR CLIENTS SECTION  */
+
+#clients {
+    flex-wrap: wrap;
+}
+
+#clients img {
+    height: 55px;
+    width: auto;
+}
+
+#client-container::before {
+    height: 155px;
+}
+
+.icons {
+    padding: 25px 10px;
+}
+
+
+/* SUGGESTIONS SECTION  */
+
+#suggest-box input,
+#sugget-box textarea {
+    width: 80%;
+}
+
+.suggest-form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+/* UTILITY CLASSES  */
+
+.primary-head {
+    font-size: 1.6rem;
+}
