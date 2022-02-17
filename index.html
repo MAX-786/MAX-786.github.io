@@ -5,11 +5,107 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>HEllo</title>
+    <title>Fictional Heroes</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" media="screen and (max-width:850px)" href="css/phone.css">
+    <link href="https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@1,300&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Fuzzy+Bubbles&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Architects+Daughter&display=swap" rel="stylesheet">
 </head>
 
 <body>
-    Hello!
+    <nav id="navbar">
+        <div id="logo">
+            <img src="/img/logo.png" alt="myFictionalWorld">
+        </div>
+        <ul id="navigation">
+            <li class="box"><a href="#home">Home</a></li>
+            <li class="box"><a href="#fictional-container">Fictional Worlds</a></li>
+            <li class="box"><a href="#">Favourites</a></li>
+            <li class="box"><a href="#client-container">Clients</a></li>
+            <li class="box"><a href="#suggestion">Suggestions</a></li>
+        </ul>
+    </nav>
+    <section id="home">
+        <h1 class="primary-head">FICTIONAL WORLD</h1>
+        <div class="home" class="text-centre">
+            <p class="text-centre">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Libero praesentium delectus fuga modi, neque dolorem cumque culpa perferendis nemo architecto at?Lorem, ipsum dolor sit amet consectetur adipisicing elit. Fuga, consectetur?
+            </p>
+            <p class="text-centre">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Libero praesentium delectus fuga modi, neque dolorem cumque culpa perferendis nemo architecto at?
+            </p>
+        </div>
+        <button class="btn">EXPLORE!</button>
+    </section>
+    <section id="fictional-container">
+        <h2 class="primary-head text-centre">Favourites</h2>
+        <div id="fictional">
+            <div class="movies">
+                <img src="./img/logo2.png">
+                <h2 class="secondary-head text-centre">The Military Police Brigade</h2>
+                <p class="text-centre">
+                    Lorem, ipsum dolor sit amet consectetur adipisicing elit. Hic ratione laudantium amet quidem non labore quia! Vitae quos sequi, ipsa pariatur qui sint non adipisci vel. Sunt delectus doloremque quaerat?Lorem ipsum dolor sit amet consectetur adipisicing
+                    elit. Ea magnam eius sit accusantium doloremque, velit vero nesciunt voluptatum. Quia, similique veritatis.
+                </p>
+            </div>
+            <div class="movies">
+                <img src="./img/logo1.png">
+                <h2 class="secondary-head text-centre">The Survey Corps</h2>
+                <p class="text-centre">
+                    Lorem, ipsum dolor sit amet consectetur adipisicing elit. Hic ratione laudantium amet quidem non labore quia! Vitae quos sequi, ipsa pariatur qui sint non adipisci vel. Sunt delectus doloremque quaerat?Lorem ipsum dolor sit amet consectetur adipisicing
+                    elit. Ea magnam eius sit accusantium doloremque, velit vero nesciunt voluptatum. Quia, similique veritatis.
+                </p>
+            </div>
+            <div class="movies">
+                <img src="./img/logo3.png">
+                <h2 class="secondary-head text-centre">The Garrison Regiment</h2>
+                <p class="text-centre">
+                    Lorem, ipsum dolor sit amet consectetur adipisicing elit. Hic ratione laudantium amet quidem non labore quia! Vitae quos sequi, ipsa pariatur qui sint non adipisci vel. Sunt delectus doloremque quaerat?Lorem ipsum dolor sit amet consectetur adipisicing
+                    elit. Ea magnam eius sit accusantium doloremque, velit vero nesciunt voluptatum. Quia, similique veritatis.
+                </p>
+            </div>
+
+        </div>
+    </section>
+    <section id="client-container">
+        <h1 class="primary-head text-centre">Our Comrades</h1>
+        <div id="clients">
+            <div class="icons"><img src="./img/client1.png"></div>
+            <div class="icons"><img src="./img/client2.png"></div>
+            <div class="icons"><img src="./img/client3.png"></div>
+            <div class="icons"><img src="./img/client4.png"></div>
+            <div class="icons"><img src="./img/client5.png"></div>
+        </div>
+    </section>
+    <section id="suggestion">
+        <div id="suggest-box">
+            <form action="">
+                <div class="suggest-form">
+                    <label for="name">Name:</label>
+                    <input type="text" name="name" id="name" placeholder="Enter your name">
+                </div>
+                <div class="suggest-form">
+                    <label for="email">Email:</label>
+                    <input type="email" name="email" id="email" placeholder="Enter your email">
+                </div>
+                <div class="suggest-form">
+                    <label for="number">Phone:</label>
+                    <input type="number" name="number" id="number" placeholder="Enter your number">
+                </div>
+                <div class="suggest-form">
+                    <label for="suggest">What you suggest:</label>
+                    <textarea name="suggestion" id="suggest" cols="30" rows="10"></textarea>
+
+                </div>
+                <button type="submit" class="btn">Submit</button>
+                <button type="reset" class="btn">Reset</button>
+            </form>
+        </div>
+    </section>
+    <footer>
+        <div class="text-centre">
+            Copyright &copy; www.myFictionalWorld.com All rights reserved!
+        </div>
+    </footer>
 </body>
 
 </html>
